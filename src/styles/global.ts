@@ -5,13 +5,14 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --red: #E52E4D;
     --blue: #5429CC;
+    --green: #33cc95;
 
     --blue-light: #6933ff;
 
     --text-title: #353F5F;
     --text-body: #969CB3;
 
-    --background: #F0F2F5;
+    --background: #F0F0F0;
     --shape: #ffffff;
   }
   
@@ -31,7 +32,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: var(---background);
+    background-color: var(--background);
     -webkit-font-smoothing: antialiased;
   }
 
